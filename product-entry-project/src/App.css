@@ -1,0 +1,101 @@
+body {
+  background: #1a1a1a;
+  color: #f0f0f0;
+  font-family: 'Orbitron', sans-serif;
+  padding-top: 30px;
+}
+
+.container {
+  width: 80%;
+  margin-top: 30px;
+}
+
+.productForm {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #0d7377;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #0d7377;
+  background: #1f1f1f;
+}
+
+.productForm h1 {
+  text-align: center;
+  color: #14ffec;
+}
+
+.productForm input,
+.productForm select,
+.productForm button {
+  display: block;
+  width: 99%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.productForm input,
+.productForm select {
+  background: #323232;
+  color: #14ffec;
+}
+
+.productForm select{
+  width: 101%;
+}
+
+.productForm button {
+  margin: auto;
+  margin-top: 10px;
+  width: 101%;
+  background: #0d7377;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.productForm button:hover {
+  background: #14ffec;
+  color: #0d7377;
+}
+
+.productTable {
+  margin: auto;
+  width: 90%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.productTable th,
+.productTable td {
+  border: 1px solid #0d7377;
+  padding: 10px;
+  text-align: left;
+}
+
+.productTable th {
+  background: #0d7377;
+  color: #fff;
+}
+
+.productTable td img{
+  height: 100px;
+  width: 100px;
+}
+
+.productTable tr:nth-child(even) {
+  background: #2b2b2b;
+}
+
+.productTable tr:nth-child(odd) {
+  background: #1f1f1f;
+}
+
+.productTable tr:hover {
+  background: #14ffec;
+  color: #1a1a1a;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
