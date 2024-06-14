@@ -1,0 +1,29 @@
+/* src/App.css */
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.user-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.user-card img {
+  border-radius: 50%;
+}
+
+.user-card h2 {
+  margin: 0.5em 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
